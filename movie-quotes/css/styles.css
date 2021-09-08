@@ -1,0 +1,38 @@
+.italic { 
+    color: darkgray;
+    font-style:italic
+}
+
+.title {
+    margin-left: 1cm;
+}
+
+.quote {
+    font-size: 15px;
+    margin-left: 1in;
+    margin-top: 1.5cm;
+}
+
+.venk {
+    color: goldenrod;
+}
+
+.bar {
+    color:indianred;
+}
+
+.may {
+    color: lightcoral;
+}
+
+.stan {
+    color: gold;
+}
+
+#spen {
+    color: firebrick;
+}
+
+#zedd {
+    color: darkgoldenrod;
+}
