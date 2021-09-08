@@ -1,0 +1,24 @@
+body {background-color: coral;}
+
+#song {
+    font-size: 50px;
+    margin-top: 0.5in;
+}
+
+.b {
+    margin-left: 2in;
+    color: white;
+}
+
+.chorus {
+    font-style: oblique;
+    margin-top: 1.5cm;
+}
+
+.verse {
+    margin-top: 1.5cm;
+}
+
+.bridge {
+    margin-top: 1.5cm;
+}
