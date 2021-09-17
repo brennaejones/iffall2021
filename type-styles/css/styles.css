@@ -1,0 +1,61 @@
+h3 {
+    font-size: 26px;
+    font-style: bold;
+    color: gray;
+}
+
+p {
+    font-family: 'Crimson Text', serif;
+    font-size: 24px;
+}
+
+p1 {
+    font-size: 15px;
+    color: gray;
+}
+
+section {
+    margin-top: 2cm;
+}
+
+/* BELOW ARE ALL OF THE ID TAGS */
+
+#bold {
+    font-weight: bold;
+}
+
+#italic {
+    font-style: italic;
+}
+
+#spaced3 {
+    letter-spacing: .3em;
+}
+
+#spaced06 {
+    letter-spacing: -.06em;
+}
+
+#under {
+    text-decoration: underline;
+}
+
+#through {
+    text-decoration: line-through;
+}
+
+#over {
+    text-decoration: overline;
+}
+
+#upper {
+    text-transform: uppercase;
+}
+
+#lower {
+    text-transform: lowercase;
+}
+
+#capital {
+    text-transform: capitalize;
+}
