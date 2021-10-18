@@ -1,0 +1,40 @@
+body {
+    font-family: 'Archivo Narrow', sans-serif;
+}
+
+.content {
+    width: 960px;
+    margin: auto;
+}
+
+h1 {
+    margin: 0;
+    text-align: center;
+}
+
+h2 {
+    font-size: 30px;
+    margin: -3px;
+}
+
+header {
+    text-align: center;
+}
+
+header .content {
+    padding: 152px 0px 186px 0;
+}
+
+header h1 {
+    font-size: 80px;
+}
+
+section .content {
+    padding: 40px 0 55px 0;
+    /* fix padding */
+}
+
+section .content h1 {
+    font-size: 40px;
+}
+
