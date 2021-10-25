@@ -9,10 +9,15 @@ body {
     margin: 10%;
 }
 
+#title-box {
+    width: 735px;
+    object-fit: cover;
+}
+
 h2 {
-    font-family: rockwell, sans-serif;
-    font-weight: 400;
-    font-style: normal;
+    font-family: rockwell, sans-serif;
+    font-weight: 400;
+    font-style: normal;
     font-size: 45px;
     color: #8587B7;
 }
@@ -46,9 +51,25 @@ h3 {
     margin-left: 40px;
     margin-right: 5px;
     font-size: 25px;
-    list-style: none;
 }
+
+.big-grid {
+    display: flex;
+    flex-direction: row;
+    flex: wrap;
+}
+
+@media (max-width: 960px) {
+    .big-grid {
+        flex-direction: column;
+    }
+}
+
+
+
+
 
 #drawings {
     float: right;
+    margin-left: 40px;
 }
