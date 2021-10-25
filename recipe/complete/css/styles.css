@@ -1,0 +1,54 @@
+html {
+    background-color: #FFFBE9;
+}
+
+body {
+    font-family: interstate, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 10%;
+}
+
+h2 {
+    font-family: rockwell, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 45px;
+    color: #8587B7;
+}
+
+.grid {
+    display: flex;
+    flex-direction: row;
+    flex: wrap;
+}
+
+.grid ul {
+    min-width: 200px;
+    max-width: 200px;
+}
+
+.grid li {
+    font-size: 20px;
+}
+
+.grid h2 {
+    text-align: center;
+}
+
+@media (max-width: 960px) {
+    .grid {
+        flex-direction: column;
+    }
+}
+
+h3 {
+    margin-left: 40px;
+    margin-right: 5px;
+    font-size: 25px;
+    list-style: none;
+}
+
+#drawings {
+    float: right;
+}
