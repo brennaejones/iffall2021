@@ -32,11 +32,6 @@ h2 {
     flex: wrap;
 }
 
-.grid ul {
-    min-width: 200px;
-    max-width: 200px;
-}
-
 .grid li {
     font-size: 20px;
 }
@@ -53,7 +48,7 @@ h2 {
 
 h3 {
     margin-left: 40px;
-    margin-right: 5px;
+    margin-right: 40px;
     font-size: 25px;
 }
 
@@ -67,7 +62,7 @@ h3 {
     margin-left: 40px;
 }
 
-@media (max-width: 960px) {
+@media (max-width: 1000px) {
     .big-grid {
         flex-direction: column;
     }
@@ -76,5 +71,24 @@ h3 {
 #drawings {
     float: center;
     margin-left: 40px;
-    width: 100%;
+    margin-right: 40px;
+    width: 75%;
+}
+
+.grid-2 {
+    display: flex;
+    flex-direction: row;
+    flex: wrap;
+}
+
+@media (max-width: 550px) { 
+    .grid-2 {
+        flex-direction: column;
+    }
+ }
+
+@media (min-width: 550px) {
+    .grid-2 #source {
+        margin-left: 40px;
+    }
 }
