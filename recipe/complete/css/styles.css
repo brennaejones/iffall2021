@@ -10,8 +10,12 @@ body {
 }
 
 #title-box {
-    width: 735px;
+    width: 100%;
     object-fit: cover;
+}
+
+#realistic {
+    width: 100%;
 }
 
 h2 {
@@ -59,14 +63,19 @@ h3 {
     flex: wrap;
 }
 
+.big-grid h2 {
+    margin-left: 40px;
+}
+
 @media (max-width: 960px) {
     .big-grid {
         flex-direction: column;
     }
 }
 
-
-
+#left-images {
+    width: 735px;
+}
 
 
 #drawings {
