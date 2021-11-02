@@ -1,0 +1,667 @@
+body {
+    color: #333;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    margin: 40px;
+}
+
+h1 {
+     font-size: 30px;
+     margin-bottom: 40px;
+}
+
+.button_container {
+    border: 1px solid #ddd;
+    margin: 0 10px 10px 0;
+    padding: 20px;
+    width: 300px;
+    height: 300px;
+    float: left;
+    overflow: hidden;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+
+
+a#btn_spotify {
+    display: inline-block;
+    height: 50px;
+    box-sizing: border-box;
+    border-radius: 25px;
+    margin: auto;
+    margin-top: 100px;
+    padding: 10px 40px 0 40px;
+    background-color: #2ebd59;
+    border: 2px solid #2ebd59;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all .5s;
+}
+
+a#btn_spotify:hover {
+    background-color: #fff;
+    border: 2px solid #000;
+    color: #000;
+}
+
+a#btn_amazon {
+    display: block;
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+    border-radius: 50px;
+    margin: auto;
+    margin-top: 75px;
+    padding-top: 8px;
+    background-color: #232f3e;
+    color: #fff;
+    text-align: center;
+    font-size: 60px;
+    transition: all .2s;
+}
+
+a#btn_amazon:hover {
+    background-color: #fc9a18;
+}
+
+a#btn_twitter {
+    display: inline-block;
+    height: 40px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin: auto;
+    margin-top: 105px;
+    padding: 10px 30px 0 30px;
+    background-color: #56cdf1;
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a#btn_twitter:hover {
+
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#2ebfec+0,28a5cb+100 */
+    background: rgb(46,191,236); /* Old browsers */
+    background: -moz-linear-gradient(-45deg,  rgba(46,191,236,1) 0%, rgba(40,165,203,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg,  rgba(46,191,236,1) 0%,rgba(40,165,203,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg,  rgba(46,191,236,1) 0%,rgba(40,165,203,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2ebfec', endColorstr='#28a5cb',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+}
+
+a#btn_indiegogo {
+    display: inline-block;
+    position: relative;
+    margin:auto;
+    margin-top: 100px;
+    padding: 8px 16px;
+    background-color: #fff;
+    color: #eb1478;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: -2px;
+    transition: all .2s;
+}
+
+a#btn_indiegogo:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    z-index: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: #eb1478;
+    transition: all .5s;
+}
+
+a#btn_indiegogo:hover {
+    color: #fff;
+}
+
+a#btn_indiegogo:hover:before {
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+
+a#btn_indiegogo span {
+    position: relative;
+    z-index: 10;
+}
+
+/* MY BUTTONS BEGIN! */
+
+/* Coca Cola Button */
+a#btn_cocacola {
+    display: inline-block;
+    margin: auto;
+    position: relative;
+    color: white;
+    box-sizing: border-box;
+    border-radius: 60px;
+    font-family:'Times New Roman', Times, serif;
+    padding: 10px 30px 10px 30px;
+    background-color: red;
+    text-decoration: none;
+}
+
+a#btn_cocacola:hover {
+    background-color: darkred;
+    transition: 2s;
+}
+
+/* Ideo button */
+a#btn_ideo {
+    display: inline-block;
+    margin: auto;
+    position: relative;
+    color: black;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 4px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: bold;
+    font-size: 35px;
+    padding: 20px 30px 20px 30px;
+    background-color:yellow;
+    text-decoration: none;
+}
+
+a#btn_ideo:hover {
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#efab77+0,ff8742+45,f96800+100 */
+    background: #efab77; /* Old browsers */
+    background: -moz-linear-gradient(top, #efab77 0%, #ff8742 45%, #f96800 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #efab77 0%,#ff8742 45%,#f96800 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #efab77 0%,#ff8742 45%,#f96800 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#efab77', endColorstr='#f96800',GradientType=0 ); /* IE6-9 */
+    transition: 1s;
+}
+
+a#btn_ideo:active {
+    background-color: chartreuse;
+}
+
+/* Moo button */
+a#btn_moo {
+    display: inline-block;
+    margin: auto;
+    position: relative;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: bold;
+    font-size: 35px;
+    letter-spacing: 2px;
+    color: black;
+    padding: 5px 5px 5px 5px;
+    text-decoration: none;
+}
+
+a#btn_moo:hover {
+    box-sizing: border-box;
+    border: 1px solid black;
+    transition: 1s;
+}
+
+/* Facebook button */
+a#btn_fb {
+    display: block;
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+    border-radius: 50px;
+    margin: auto;
+    margin-top: 75px;
+    padding-top: 8px;
+    background-color: rgb(17, 17, 117);
+    color: #fff;
+    text-align: center;
+    font-size: 60px;
+    transition: all .2s;
+    text-decoration: none;
+}
+
+a#btn_fb:hover {
+    box-sizing: border-box;
+    border: 2px solid rgb(17, 17, 117);
+    background-color: white;
+    transition: 1s;
+    color: rgb(17, 17, 117);
+}
+
+a#btn_fb:active {
+    font-size: 84px;
+    transition: 0.25s;
+}
+
+/* Michael Kors button */
+a#btn_mk {
+    display: block;
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+    border-radius: 50px;
+    margin: auto;
+    margin-top: 75px;
+    padding-top: 8px;
+    color: goldenrod;
+    text-align: center;
+    font-size: 60px;
+    transition: all .2s;
+    text-decoration: none;
+}
+
+a#btn_mk:hover {
+    font-size: 70px;
+    transition: 1s;
+}
+a#btn_mk:active {
+    font-style: italic;
+    transition: 1s;
+}
+
+/* Lyft button */
+a#btn_lyft {
+    display: inline-block;
+    position: relative;
+    margin:auto;
+    margin-top: 100px;
+    padding: 8px 16px;
+    background-color: #fff;
+    color: rgb(226, 5, 127);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 60px;
+    font-weight: bold;
+    text-decoration: none;
+    letter-spacing: -2px;
+    transition: all .2s;
+}
+
+a#btn_lyft:hover {
+    color: black;
+}
+
+/* Apple button */
+a#btn_apple {
+    color: grey;
+    display: inline-block;
+    position: relative;
+    margin:auto;
+    margin-top: 100px;
+    padding: 10px 10px 10px 10px;
+    font-size: 80px;
+    text-decoration: none;
+}
+
+a#btn_apple:hover {
+    color: white;
+    box-sizing: border-box;
+    border-radius: 50px;
+    border: 2px solid grey;
+    transition: 0.5s;
+}
+
+a#btn_apple:active {
+    color: grey;
+    transition: 0.25s;
+}
+
+/* Nike button */
+a#btn_nike {
+    display: inline-block;
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin: auto;
+    padding: 10px 30px 10px 30px;
+    background-color: orangered;
+    color: black;
+    font-size: 30px;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a#btn_nike:hover {
+    color: white;
+}
+
+/* Dime City Cycles button */
+a#btn_dcc {
+    display: inline-block;
+    box-sizing: border-box;
+    border-radius: 25px;
+    margin: auto;
+    margin-top: 100px;
+    padding: 10px 30px 10px 30px;
+    background-color:red;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: none;
+}
+
+a#btn_dcc:hover {
+    padding: 10px 30px 10px 20px;
+    transition: .25s;
+}
+
+a#btn_dcc:hover i{
+    color: goldenrod;
+}
+
+/* Missouri Botanical Gardens button */
+a#btn_mobot {
+    display: block;
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+    border-radius: 50px;
+    margin: auto;
+    margin-top: 75px;
+    padding-top: 8px;
+    background-color: rgb(11, 66, 34);
+    color: rgb(252, 140, 65);
+    text-align: center;
+    font-size: 60px;
+    transition: all .2s;
+    text-decoration: none;
+}
+
+a#btn_mobot:hover {
+    transform: rotate(10deg);
+    transition: 1s;
+}
+
+a#btn_mobot:active {
+    color: rgb(92, 221, 92);
+    transition: 0.5s;
+}
+
+/* Exploding Kittens button */
+a#btn_kittens {
+    display: inline-block;
+    position: relative;
+    margin:auto;
+    margin-top: 100px;
+    padding: 8px 16px;
+    background-color: #fff;
+    color: rgb(83, 0, 0);
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: -2px;
+    transition: all .2s;
+}
+
+a#btn_kittens:hover {
+    color:red;
+    background-color:rgb(83, 0, 0);
+}
+
+/* Pottermore button */
+a#btn_pottermore {
+    display: inline-block;
+    position: relative;
+    margin:auto;
+    margin-top: 100px;
+    padding: 8px 16px;
+    background-color: #fff;
+    color: rgb(50, 50, 119);
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: -2px;
+    transition: all .2s;
+}
+
+a#btn_pottermore:hover {
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#aea3ff+0,a08dff+10,8867ff+25,8e6bff+37,9271ff+50,6c43ff+51,8f89ff+83,a9b4ff+100 */
+    background: #aea3ff; /* Old browsers */
+    background: -moz-linear-gradient(top, #aea3ff 0%, #a08dff 10%, #8867ff 25%, #8e6bff 37%, #9271ff 50%, #6c43ff 51%, #8f89ff 83%, #a9b4ff 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #aea3ff 0%,#a08dff 10%,#8867ff 25%,#8e6bff 37%,#9271ff 50%,#6c43ff 51%,#8f89ff 83%,#a9b4ff 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #aea3ff 0%,#a08dff 10%,#8867ff 25%,#8e6bff 37%,#9271ff 50%,#6c43ff 51%,#8f89ff 83%,#a9b4ff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#aea3ff', endColorstr='#a9b4ff',GradientType=0 ); /* IE6-9 */
+    transition: 1.5s;
+    color: white;
+}
+
+a#btn_pottermore:active {
+    font-size: 25px;
+    transition: 0.5s;
+}
+
+/* Old Navy button */
+a#btn_oldnavy {
+    display: inline-block;
+    height: 50px;
+    box-sizing: border-box;
+    border-radius: 75px;
+    margin: auto;
+    margin-top: 100px;
+    padding: 15px;
+    background-color: navy;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all .5s;
+}
+
+a#btn_oldnavy:hover {
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ff7332+0,7db9e8+100&1+0,0+100 */
+    background: -moz-linear-gradient(top, rgba(255,115,50,1) 0%, rgba(125,185,232,0) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(255,115,50,1) 0%,rgba(125,185,232,0) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(255,115,50,1) 0%,rgba(125,185,232,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff7332', endColorstr='#007db9e8',GradientType=0 ); /* IE6-9 */
+    color: navy;
+}
+
+a#btn_oldnavy:active {
+    color: white;
+}
+
+/* Instagram button */
+a#btn_insta {
+    display: inline-block;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 105px;
+    padding: 3px 10px 3px 10px;
+    background-color: white;
+    color: black;
+    font-size: 60px;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a#btn_insta:hover {
+    font-size: 65px;
+    transition: 0.25s;
+}
+
+a#btn_insta:active {
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#4427c6+0,f230a1+32,fc5a32+67,ffe100+100 */
+    background: rgb(68,39,198); /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(68,39,198,1) 0%, rgba(242,48,161,1) 32%, rgba(252,90,50,1) 67%, rgba(255,225,0,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(68,39,198,1) 0%,rgba(242,48,161,1) 32%,rgba(252,90,50,1) 67%,rgba(255,225,0,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(68,39,198,1) 0%,rgba(242,48,161,1) 32%,rgba(252,90,50,1) 67%,rgba(255,225,0,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4427c6', endColorstr='#ffe100',GradientType=0 ); /* IE6-9 */
+    transition: 0.25s;
+    color: white;
+}
+
+/* The Color Run button */
+a#btn_colorrun {
+    display: inline-block;
+    height: 50px;
+    box-sizing: border-box;
+    border-radius: 40px;
+    margin: auto;
+    margin-top: 100px;
+    padding: 10px 40px 10px 40px;
+    background-color: white;
+    border: 2px solid black;
+    color: black;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a#btn_colorrun:hover {
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ff3232+0,ff8832+18,fff132+38,32ff40+59,32c5ff+80,aa00ff+100 */
+    background: rgb(255,50,50); /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(255,50,50,1) 0%, rgba(255,136,50,1) 18%, rgba(255,241,50,1) 38%, rgba(50,255,64,1) 59%, rgba(50,197,255,1) 80%, rgba(170,0,255,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(255,50,50,1) 0%,rgba(255,136,50,1) 18%,rgba(255,241,50,1) 38%,rgba(50,255,64,1) 59%,rgba(50,197,255,1) 80%,rgba(170,0,255,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(255,50,50,1) 0%,rgba(255,136,50,1) 18%,rgba(255,241,50,1) 38%,rgba(50,255,64,1) 59%,rgba(50,197,255,1) 80%,rgba(170,0,255,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff3232', endColorstr='#aa00ff',GradientType=0 ); /* IE6-9 */
+    transition: .5s;
+}
+
+/* Harley Davidson button */
+a#btn_harley {
+    display: inline-block;
+    height: 40px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 2px solid orangered;
+    margin: auto;
+    margin-top: 105px;
+    padding: 10px 30px 0 30px;
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+a#btn_harley:hover {
+    transform: rotate(-20deg);
+    transition: 0.25s;
+}
+
+a#btn_harley:active {
+    margin-right: -20px;
+    transition: 1s;
+}
+
+/* Fitbit button */
+a#btn_fitbit {
+    display: block;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    margin-top: 75px;
+    padding-top: 8px;
+    color: rgb(68, 38, 109);
+    text-align: center;
+    font-size: 60px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    transition: all 2s;
+}
+
+a#btn_fitbit:hover {
+    font-size: 50px;
+}
+
+a#btn_fitbit:active {
+    font-size: 70px;
+}
+
+/* Tesla button */
+a#btn_tesla {
+    display: inline-block;
+    height: 40px;
+    box-sizing: border-box;
+    border-radius: 1px;
+    border: 3px solid slategrey;
+    margin: auto;
+    margin-top: 105px;
+    padding: 0 10px 0 10px;
+    background-color:white;
+    color: slategray;
+    font-size: 30px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-decoration: none;
+}
+
+a#btn_tesla:active {
+    padding: 10px 30px 28px 30px;
+    transition: .5s;
+}
+
+/* Bissingers button */
+a#btn_biss {
+    display: inline-block;
+    margin: auto;
+    margin-top: 105px;
+    color: goldenrod;
+    font-size: 50px;
+    font-family: cursive;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a#btn_biss i {
+    color: white;
+    font-size: 60px;
+}
+
+a#btn_biss:hover i {
+    color: goldenrod;
+    transition: 1s;
+}
+
+/* Cartoon Network button */
+a#btn_cn {
+    display: block;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    margin-top: 75px;
+    padding-top: 8px;
+    color: black;
+    font-size: 60px;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: bold;
+    text-decoration: none;
+}
+
+a#btn_cn:hover {
+    transform: rotate(75deg);
+    transition: .25s;
+}
+
+a#btn_cn:active {
+    transform: rotate(25deg);
+    transition: 0.25;
+}
