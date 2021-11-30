@@ -1,0 +1,129 @@
+h1 {
+    font-family: din-condensed, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 100px;
+    margin: 10px;
+    padding-top: 20px;
+}
+
+h2 {
+    font-size: 50px;
+}
+
+body {
+    font-family: interstate, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* NAV BAR */
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#nav-bar li a {
+    display: inline;
+    padding: 8px;
+    background-color: white;
+    padding: 60px;
+    text-decoration: none;
+    color: inherit;
+    font-size: 25px;
+}
+
+#nav-bar li {
+    float: left;
+}
+
+#nav-bar {
+      color: black;
+      margin: 10px;
+}
+
+#nav-bar li a:hover {
+      color: grey;
+}
+
+#nav-bar li a:active {
+      color: black;
+}
+
+/* HOMEPAGE FULL GRID */
+
+#home-grid {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    text-align: justify;
+    float: under;
+}
+
+#home-grid div {
+      margin: 20px;
+}
+
+/* PRODUCTIONS GRID */
+
+.productions-grid {
+    padding-top: 0px;
+    padding: 40px;
+}
+
+.productions-grid img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    float: right;
+    box-align: center;
+    padding: 10px;
+}
+
+.productions-grid p {
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
+
+.productions-grid li {
+    margin: 10px;
+}
+
+.productions-grid {
+    background-color: black;
+}
+
+.productions-grid h2 {
+    color: white;
+    text-align: center;
+}
+
+.productions-grid #page {
+    background-color: white;
+}
+
+/* BASELINE GRID */
+
+.baseline-grid {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    text-align: justify;
+    margin: 10px;
+}
+
+.baseline-grid img {
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+    padding: 40px;
+}
+
+/* SOURCES */
+
+#sources-links li {
+    margin: 40px;
+}
