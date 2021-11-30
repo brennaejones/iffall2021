@@ -67,8 +67,22 @@ ul {
     gap: 20px;
 }
 
+#home-grid .col-1 img {
+    width: 100%;
+}
+
+#home-grid .col-1 {
+    width: 70%;
+}
+
 #home-grid div {
       margin: 20px;
+}
+
+@media (max-width: 960px) {
+    #home-grid {
+        flex-direction: column;
+    }
 }
 
 /* PRODUCTIONS GRID */
