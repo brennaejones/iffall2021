@@ -36,6 +36,7 @@ ul {
       color: black;
       margin: 10px;
       display: flex;
+      justify-content: space-between;
 }
 
 #nav-bar li a:hover {
@@ -44,6 +45,12 @@ ul {
 
 #nav-bar li a:active {
       color: black;
+}
+
+@media (max-width: 960px) {
+    #nav-bar {
+        display: block;
+    }
 }
 
 /* HOMEPAGE FULL GRID */
@@ -104,17 +111,21 @@ ul {
 
 .baseline-grid {
     display: flex;
-    flex-direction: column;
-    padding: 10px;
+    flex-direction: row;
     text-align: justify;
     margin: 10px;
 }
 
 .baseline-grid img {
-    width: 400px;
-    height: 300px;
-    object-fit: cover;
     padding: 40px;
+}
+
+.col-1 {
+    width: 66%;
+}
+
+.col-2 {
+    width: 33%;
 }
 
 /* SOURCES */
