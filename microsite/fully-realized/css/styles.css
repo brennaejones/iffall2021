@@ -27,21 +27,15 @@ ul {
 
 #nav-bar li a {
     display: inline;
-    padding: 8px;
-    background-color: white;
-    padding: 60px;
     text-decoration: none;
     color: inherit;
     font-size: 25px;
 }
 
-#nav-bar li {
-    float: left;
-}
-
 #nav-bar {
       color: black;
       margin: 10px;
+      display: flex;
 }
 
 #nav-bar li a:hover {
@@ -60,6 +54,7 @@ ul {
     padding: 10px;
     text-align: justify;
     float: under;
+    clear: both;
 }
 
 #home-grid div {
