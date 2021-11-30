@@ -1,0 +1,171 @@
+h1 {
+    font-family: din-condensed, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 100px;
+    margin: 10px;
+    padding-top: 20px;
+}
+
+h2 {
+    font-size: 50px;
+}
+
+body {
+    font-family: interstate, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 40px;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* NAV BAR */
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#nav-bar li a {
+    display: inline;
+    text-decoration: none;
+    color: inherit;
+    font-size: 25px;
+}
+
+#nav-bar {
+      color: black;
+      margin: 10px;
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 40px;
+}
+
+#nav-bar li a:hover {
+      color: grey;
+}
+
+#nav-bar li a:active {
+      color: black;
+}
+
+@media (max-width: 960px) {
+    #nav-bar {
+        display: block;
+    }
+}
+
+/* HOMEPAGE FULL GRID */
+
+#home-grid {
+    display: flex;
+    flex-direction: row;
+    text-align: justify;
+    float: under;
+    clear: both;
+    gap: 20px;
+}
+
+#home-grid .col-1 img {
+    width: 100%;
+}
+
+#home-grid .col-1 {
+    width: 70%;
+}
+
+@media (max-width: 960px) {
+    #home-grid {
+        flex-direction: column;
+    }
+    #home-grid .col-1 {
+        width: 100%;
+    }
+}
+
+/* PRODUCTIONS GRID */
+
+.productions-grid img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    box-align: center;
+    padding: 10px;
+}
+
+.productions-grid p {
+    font-size: 20px;
+    color: white;
+    margin-bottom: 40px;
+}
+
+.productions-grid li {
+    margin: 10px;
+    text-align: center;
+}
+
+.productions-grid {
+    background-color: black;
+}
+
+.productions-grid h2 {
+    color: white;
+    text-align: center;
+}
+
+.productions-grid#page {
+    background-color: white;
+}
+
+.productions-grid#page p {
+    color: black;
+    text-align: justify;
+}
+
+.productions-grid#page .baseline-grid {
+    gap: 20px;
+}
+
+/* BASELINE GRID */
+
+.baseline-grid {
+    display: flex;
+    flex-direction: row;
+    text-align: justify;
+    margin: 10px;
+    gap: 20px;
+}
+
+.baseline-grid img {
+    width: 100%;
+}
+
+.col-1 {
+    width: 50%;
+}
+
+.col-2 {
+    width: 50%;
+}
+
+@media (max-width: 960px) {
+    .baseline-grid {
+        flex-direction: column;
+    }
+    .col-1 {
+        width: 100%;
+    }
+    .col-2 {
+        width: 100%;
+    }
+}
+
+/* SOURCES */
+
+#sources-links li {
+    margin: 40px;
+}
